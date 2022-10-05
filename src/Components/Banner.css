@@ -1,0 +1,30 @@
+.banner {
+  width: 100%;
+}
+.banner__content {
+  color: white;
+  width: 40%;
+}
+.banner__content > h1 {
+  font-size: 40px;
+  font-weight: 900;
+  letter-spacing: 1px;
+  margin-top: 60px;
+}
+
+.banner__content > p {
+  margin-top: 15px;
+}
+
+@media (max-width: 840px) {
+  .banner__content {
+    color: white;
+    width: 80%;
+  }
+}
+
+@media (max-width: 500px) {
+  .banner__content > h1 {
+    font-size: 30px;
+  }
+}

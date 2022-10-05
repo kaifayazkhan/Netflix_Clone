@@ -1,0 +1,41 @@
+.nav {
+  position: sticky;
+  width: 100%;
+  z-index: 1;
+  background-color: #000000;
+}
+.nav__contents {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__logo {
+  width: 150px;
+  cursor: pointer;
+  height: 50px;
+}
+
+.nav__buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.nav__contents > p {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+@media (max-width: 768px) {
+  .nav__contents p {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .nav__logo {
+    width: 100px;
+  }
+}

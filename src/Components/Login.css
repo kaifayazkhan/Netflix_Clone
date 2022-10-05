@@ -1,0 +1,127 @@
+.login {
+  position: relative;
+  height: 100vh;
+  background: url("../assets/background.jpg") no-repeat center center/cover;
+}
+
+.login__logo {
+  position: fixed;
+  left: 0;
+  width: 150px;
+  object-fit: contain;
+  padding-left: 20px;
+}
+
+.login__gradient {
+  width: 100%;
+  z-index: 1;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.4);
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.8) 0%,
+    rgba(0, 0, 0, 0) 60%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
+}
+
+.login__body {
+  z-index: 1;
+  color: #fff;
+  padding: 20px;
+  position: absolute;
+  top: 30%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.login__body > h1 {
+  font-size: 3.125rem;
+  margin-bottom: 20px;
+}
+
+.login__body > h2 {
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.login__body > h3 {
+  font-size: 1.3rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.login__button {
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  color: #fff;
+  border: none;
+  outline: none;
+  background-color: #e50914;
+}
+
+.login__input > form > input {
+  width: 30%;
+  height: 40px;
+  max-width: 600px;
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 1rem;
+  border: none;
+  outline-width: 0;
+}
+
+.login__getStarted {
+  padding: 0 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #e50914;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  font-weight: 600;
+  height: 40px;
+}
+.login__getStarted:hover,
+.login__button:hover {
+  background-color: rgb(255, 5, 17);
+}
+
+@media (max-width: 840px) {
+  .login__input > form > input {
+    width: 45%;
+  }
+}
+
+@media (max-width: 500px) {
+  .login__body > h1 {
+    font-size: 1.75rem;
+  }
+  .login__body > h2 {
+    font-size: 1.25rem;
+  }
+
+  .login__body > h3 {
+    font-size: 1rem;
+  }
+  .login__input > form {
+    display: flex;
+    flex-direction: column;
+  }
+  .login__input > form > input {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .login__getStarted {
+    max-width: 150px;
+    font-size: 14px;
+    margin: 0 auto;
+    margin-top: 15px;
+  }
+}
