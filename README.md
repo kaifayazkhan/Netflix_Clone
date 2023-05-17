@@ -28,7 +28,7 @@ To install this project
 ```bash
   git clone https://github.com/KaifKhan7393/Netflix_Clone.git
 ```
-- Navigate to the projectt directory
+- Navigate to the project directory
 ```bash
     cd Netflix_Clone
 ```
