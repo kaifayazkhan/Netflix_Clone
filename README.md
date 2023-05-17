@@ -11,7 +11,7 @@ And uses the themoviedb api for the list of movies.
 
 ## Tech Stack
 
-React, Redux
+React, Redux, Firebase
 
 
 ## Features
