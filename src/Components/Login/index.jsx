@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './Login.css';
-import SignInScreen from './SignInScreen'
+import SignInScreen from '../SignInScreen'
 
 const Login = () => {
 
@@ -10,7 +10,7 @@ const Login = () => {
             <div className="login__background">
                 <img
                     className="login__logo"
-                    src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c529.png" alt=""
+                    src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c529.png" alt="Logo"
                 />
                 <button className="login__button" onClick={() => setSignIn(true)}>Sign In</button>
 

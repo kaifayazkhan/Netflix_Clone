@@ -1,9 +1,9 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import './Nav.css'
-import Button from "./Button"
-import { auth } from '../firebase'
+import Button from "../Button"
+import { auth } from '../../firebase'
 import { useDispatch } from 'react-redux'
-import { logout } from '../features/userSlice'
+import { logout } from '../../features/userSlice'
 const Nav = () => {
 
     const dispatch = useDispatch();

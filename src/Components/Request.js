@@ -12,5 +12,3 @@ const requests = {
 }
 
 export default requests;
-
-//https://api.themoviedb.org/3/trending/all/week?api_key=3182159bc01fade1e23ab2f1df8e14ee&language=en-US
