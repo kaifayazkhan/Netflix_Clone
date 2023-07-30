@@ -26,7 +26,7 @@ To install this project
 
 - Clone the repo 
 ```bash
-  git clone https://github.com/KaifKhan7393/Netflix_Clone.git
+  git clone https://github.com/kaifayazkhan/Netflix_Clone.git
 ```
 - Navigate to the project directory
 ```bash
